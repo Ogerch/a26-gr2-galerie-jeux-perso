@@ -1,0 +1,418 @@
+[
+    {
+        "id": "bobato",
+        "numeroGroupe": 1,
+        "creatriceOuCreateur": "Philippe Fauchon",
+        "titre": "Bobato",
+        "publicCible": "2 à 5 ans",
+        "description": "Bobato est un jeu 2D éducatif et créatif destiné aux enfants de 2 à 5 ans, où ils conçoivent et personnalisent leur propre bateau grâce à des interactions simples sur tablette et ordinateur. Le parcours se déroule en trois étapes: choisir la forme du bateau, le colorer librement, puis le voir prendre vie dans une animation sur l'eau.",
+        "etiquettes": [
+            "Créativité",
+            "Bateau",
+            "Éducatif"
+        ],
+        "image": "fauchon-philippe-vignette.webp",
+        "lienJouable": "https://h26-2j2.github.io/Fauchon_Philippe_TP1_V2/",
+        "enVedette": true
+    },
+    {
+        "id": "colorami",
+        "numeroGroupe": 2,
+        "creatriceOuCreateur": "Étienne Minville",
+        "titre": "Colorami",
+        "publicCible": "2 à 5 ans",
+        "description": "Colorami est un jeu éducatif destiné aux enfants de 2 à 5 ans. Le jeu consiste à trier différentes formes dans leurs bacs appropriés en cliquant et glissant à l'aide de la souris, dans une expérience calme et encourageante.",
+        "etiquettes": [
+            "Éducatif",
+            "Formes",
+            "Classement"
+        ],
+        "image": "etienne_vignette.png",
+        "lienJouable": "https://h26-2j2.github.io/Minville_Etienne_Colorami/",
+        "enVedette": false
+    },
+    {
+        "id": "les-mathematiciens",
+        "numeroGroupe": 1,
+        "creatriceOuCreateur": "Angela Feng",
+        "titre": "Les Mathématiciens",
+        "publicCible": "6 à 8 ans",
+        "description": "Les Mathématiciens est un jeu éducatif destiné aux enfants de 6 à 8 ans. Le concept mise sur de mini opérations mathématiques à résoudre rapidement pour développer les réflexes et la vitesse de calcul.",
+        "etiquettes": [
+            "Éducatif",
+            "Casse-tête",
+            "Logique"
+        ],
+        "image": "feng-angela-vignette.jpeg",
+        "lienJouable": "https://h26-2j2.github.io/Feng_Angela_TravailPratique/",
+        "enVedette": true
+    },
+    {
+        "id": "la-saveur-des-fruits",
+        "numeroGroupe": 3,
+        "creatriceOuCreateur": "Cindy Phan",
+        "titre": "La saveur des fruits",
+        "publicCible": "6 à 8 ans",
+        "description": "La saveur des fruits est un jeu éducatif et de détente destiné à un public de 6 à 8 ans. L'expérience prend la forme d'une simulation légère axée sur les fruits, l'observation et la logique.",
+        "etiquettes": [
+            "Détente",
+            "Simulation de vie",
+            "Logique"
+        ],
+        "image": "phan-cindy-xuan-yen-vignette.webp",
+        "lienJouable": "https://h26-2j2.github.io/PHAN_CINDY_TravailPratique/",
+        "enVedette": false
+    },
+    {
+        "id": "la-chasse-aux-pommes",
+        "numeroGroupe": 3,
+        "creatriceOuCreateur": "Nathaniel Ouellet",
+        "titre": "La Chasse aux Pommes",
+        "publicCible": "2 à 5 ans",
+        "description": "La Chasse aux Pommes est un jeu éducatif destiné aux enfants de 2 à 5 ans qui simule une sortie en famille dans un verger. L'enfant doit trouver, cueillir et laver des pommes dans un cadre axé sur la découverte et la motricité.",
+        "etiquettes": [
+            "Découverte",
+            "Couleurs",
+            "Motricité"
+        ],
+        "image": "ouellet-nathaniel-vignette.webp",
+        "lienJouable": "https://h26-2j2.github.io/OuelletNathaniel-TravailPratique/",
+        "enVedette": false
+    },
+    {
+        "id": "locean-des-lettres",
+        "numeroGroupe": 2,
+        "creatriceOuCreateur": "Marianne Lemay",
+        "titre": "L'océan des lettres",
+        "publicCible": "6 à 8 ans",
+        "description": "L'océan des lettres est un jeu éducatif destiné aux enfants de 6 à 8 ans dans lequel il faut placer des lettres données dans l'océan en ordre alphabétique. L'activité mise sur le repérage visuel et l'ordre aléatoire des lettres.",
+        "etiquettes": [
+            "Coloré",
+            "Interactif",
+            "Alphabet"
+        ],
+        "image": "marianne_vignette.png",
+        "lienJouable": "https://h26-2j2.github.io/LEMAY_Marianne_TravailPratique/",
+        "enVedette": false
+    },
+    {
+        "id": "ferrallibra",
+        "numeroGroupe": 1,
+        "creatriceOuCreateur": "Shen Dumas",
+        "titre": "Ferrallibra",
+        "publicCible": "8 ans",
+        "description": "Ferrallibra est un jeu éducatif destiné à un public de 8 ans où le joueur retrouve des animaux et les réhabilite dans leur habitat naturel. Inspiré des codes du RPG classique, le projet marie exploration, animaux et aventure légère.",
+        "etiquettes": [
+            "Exploration",
+            "Animaux",
+            "RPG"
+        ],
+        "image": "dumas-shen-vignette.png",
+        "lienJouable": "https://h26-2j2.github.io/ShenDumas_Tp1/",
+        "enVedette": true
+    },
+    {
+        "id": "quipro-quoi",
+        "numeroGroupe": 1,
+        "creatriceOuCreateur": "Brandon Ducheine",
+        "titre": "Quipro-Quoi?",
+        "publicCible": "6 à 8 ans",
+        "description": "Quipro-Quoi? est un jeu éducatif destiné aux 6 à 8 ans dans lequel le joueur doit repérer les éléments qui ne correspondent pas au thème de l'environnement présenté.",
+        "etiquettes": [
+            "Observation",
+            "Logique",
+            "Environnement"
+        ],
+        "image": "ducheine-brandon-vignette.png",
+        "lienJouable": "https://h26-2j2.github.io/Quipro-Quoi-/",
+        "enVedette": false
+    },
+    {
+        "id": "pixelmath",
+        "numeroGroupe": 1,
+        "creatriceOuCreateur": "Adriano Blaise",
+        "titre": "PixelMath",
+        "publicCible": "6 à 8 ans",
+        "description": "PixelMath est un jeu éducatif dans lequel le joueur doit répondre à plusieurs problèmes mathématiques en temps limité. Le rythme mise sur la précision sous pression.",
+        "etiquettes": [
+            "Mathématiques",
+            "Rapidité",
+            "Défi"
+        ],
+        "image": "blaise_vignette.png",
+        "lienJouable": "https://h26-2j2.github.io/TP3/",
+        "enVedette": false
+    },
+    {
+        "id": "billy-mini",
+        "numeroGroupe": 2,
+        "creatriceOuCreateur": "Cedryck Paquette",
+        "titre": "Billy & Mini",
+        "publicCible": "Jeunesse",
+        "description": "Billy & Mini est un jeu éducatif de logique qui explore les thèmes de l'entraide et de l'amitié dans une ambiance ludique et amusante.",
+        "etiquettes": [
+            "Jeunesse",
+            "Logique",
+            "Animaux"
+        ],
+        "image": "paquette-cedryck-vignette.jpg",
+        "lienJouable": "https://h26-2j2.github.io/Paquette_Cedryck_TravailPratique/",
+        "enVedette": false
+    },
+    {
+        "id": "math-shinobi",
+        "numeroGroupe": 1,
+        "creatriceOuCreateur": "Angel Gabriel Medina Almonte",
+        "titre": "Math Shinobi",
+        "publicCible": "6 à 8 ans",
+        "description": "Math Shinobi transforme l'apprentissage du calcul en aventure interactive. En incarnant un ninja, les élèves répondent rapidement à des additions pour progresser dans le jeu.",
+        "etiquettes": [
+            "Math",
+            "Logique",
+            "Calcul"
+        ],
+        "image": "medina-almonte-angel-gabriel-vignette.webp",
+        "lienJouable": "https://h26-2j2.github.io/Medina-Almonte-Angel-Gabriel-tpVolet3/",
+        "enVedette": true
+    },
+    {
+        "id": "nettoyer-sa-chambre",
+        "numeroGroupe": 3,
+        "creatriceOuCreateur": "Marc-Alexandre Di Marco François",
+        "titre": "Nettoyer sa chambre",
+        "publicCible": "3 à 5 ans",
+        "description": "Aide tes parents à ramasser les jouets dans la chambre. Le projet travaille le repérage visuel et la motricité fine dans un décor du quotidien.",
+        "etiquettes": [
+            "Souris",
+            "Ménage",
+            "Motricité"
+        ],
+        "image": "dimarco-francois-marc-alexandre-vignette.webp",
+        "lienJouable": "https://h26-2j2.github.io/DiMarcoFrancois_Marc-Alexandre_TravailPratique/",
+        "enVedette": false
+    },
+    {
+        "id": "choisis-ta-route",
+        "numeroGroupe": 1,
+        "creatriceOuCreateur": "Minh-lee Ho",
+        "titre": "Choisis ta route",
+        "publicCible": "3 à 5 ans",
+        "description": "Choisis le chemin le plus court en cliquant sur la route qui contient le moins de carrés. Le jeu associe comptage rapide et prise de décision.",
+        "etiquettes": [
+            "Voiture",
+            "Choix",
+            "Comptage"
+        ],
+        "image": "ho-minh-lee-vignette.png",
+        "lienJouable": "https://h26-2j2.github.io/Tp1-volet-2/",
+        "enVedette": false
+    },
+    {
+        "id": "bloc-et-sable",
+        "numeroGroupe": 2,
+        "creatriceOuCreateur": "Cédric Leclerc",
+        "titre": "Bloc et sable",
+        "publicCible": "3 à 5 ans",
+        "description": "Un jeu calme portant sur des blocs de construction où la seule limite est la créativité. Le projet valorise la manipulation libre et le jeu relaxant.",
+        "etiquettes": [
+            "Bloc",
+            "Créativité",
+            "Relaxant"
+        ],
+        "image": "leclerc-cedric-vignette.jpg",
+        "lienJouable": "https://h26-2j2.github.io/Leclerc_Cedric_TP/",
+        "enVedette": false
+    },
+    {
+        "id": "le-fort-de-thomas",
+        "numeroGroupe": 2,
+        "creatriceOuCreateur": "Jaider Contreras",
+        "titre": "Le Fort de Thomas",
+        "publicCible": "4 à 5 ans",
+        "description": "Jeu pour les enfants de 4 à 5 ans dans lequel Thomas doit construire la maison de ses amis en apprenant à reconnaître des outils de construction et des formes.",
+        "etiquettes": [
+            "Puzzle",
+            "Créativité",
+            "Formes"
+        ],
+        "image": "contreras-jaider-vignette.png",
+        "lienJouable": "https://h26-2j2.github.io/ContrerasJaider_LeFortDeThomas/",
+        "enVedette": false
+    },
+    {
+        "id": "trouve-lanimal",
+        "numeroGroupe": 3,
+        "creatriceOuCreateur": "Jamila Vargas",
+        "titre": "Trouve l'animal",
+        "publicCible": "3 à 5 ans",
+        "description": "Jeu de découverte et éducatif centré sur les animaux de la maison. L'expérience privilégie l'interaction directe et la reconnaissance visuelle.",
+        "etiquettes": [
+            "Éducatif",
+            "Interactif",
+            "Animal"
+        ],
+        "image": "vargas-jamila-vignette.jpg",
+        "lienJouable": "https://h26-2j2.github.io/Vargas_jamila-TP-Trouve-l-animaux/",
+        "enVedette": false
+    },
+    {
+        "id": "chromac",
+        "numeroGroupe": 1,
+        "creatriceOuCreateur": "Véronika Vong",
+        "titre": "ChromaC",
+        "publicCible": "6 à 8 ans",
+        "description": "Un nouveau scientifique étudie comment les couleurs se mélangent. Dans son laboratoire, il manipule différents objets colorés pour apprendre les combinaisons et les effets visuels.",
+        "etiquettes": [
+            "Couleur",
+            "Exploration",
+            "Scientifique"
+        ],
+        "image": "vong_vignette.jpg",
+        "lienJouable": "https://h26-2j2.github.io/vv_TravailPratique/",
+        "enVedette": false
+    },
+    {
+        "id": "electro",
+        "numeroGroupe": 1,
+        "creatriceOuCreateur": "Jad Razouani",
+        "titre": "Electro",
+        "publicCible": "6 à 8 ans",
+        "description": "Electro demande d'aligner des composantes électriques dans des circuits. Le défi met en avant la logique et la lecture de connexions simples.",
+        "etiquettes": [
+            "Électricité",
+            "Logique",
+            "Casse-tête"
+        ],
+        "image": "razouani-jad-vignette.jpg",
+        "lienJouable": "https://h26-2j2.github.io/Razouani-Jad_TravailPratique",
+        "enVedette": false
+    },
+    {
+        "id": "au-pays-des-merveilles",
+        "numeroGroupe": 3,
+        "creatriceOuCreateur": "Ihasina Joanna Jacky",
+        "titre": "Au pays des merveilles",
+        "publicCible": "6 à 8 ans",
+        "description": "Sortez du pays des merveilles en aidant ses habitants. L'aventure mise sur des énigmes courtes et un imaginaire de conte.",
+        "etiquettes": [
+            "Conte de fées",
+            "Logique",
+            "Casse-têtes"
+        ],
+        "image": "jacky_vignette.png",
+        "lienJouable": "https://h26-2j2.github.io/JACKY_IHASINA_JOANNA_TravailPratique/",
+        "enVedette": false
+    },
+    {
+        "id": "raton-tout-propre",
+        "numeroGroupe": 3,
+        "creatriceOuCreateur": "Izak Laberge",
+        "titre": "Raton tout propre",
+        "publicCible": "3 à 5 ans",
+        "description": "Aidez votre ami raton à trouver les déchets dans la ville. Le jeu repose sur la recherche visuelle et l'attention soutenue.",
+        "etiquettes": [
+            "Cherche et trouve",
+            "Animal",
+            "Ménage"
+        ],
+        "image": "laberge_vignette.png",
+        "lienJouable": "https://izak-laberge.github.io/volet-2-Laberge-Izak/",
+        "enVedette": false
+    },
+    {
+        "id": "le-repas-de-ludo-lalligator",
+        "numeroGroupe": 3,
+        "creatriceOuCreateur": "André Armendariz-Jasso",
+        "titre": "Le Repas de Ludo l'Alligator",
+        "publicCible": "3 à 5 ans",
+        "description": "Prépare le sandwich de Ludo dans un jeu d'assemblage et de reconnaissance. Le projet combine cuisine éducative et séquences simples à compléter.",
+        "etiquettes": [
+            "Assemblage",
+            "Reconnaissance",
+            "Cuisine éducative"
+        ],
+        "image": "jasso-andre-vignette.png",
+        "lienJouable": "https://h26-2j2.github.io/ARMENDARIZ-JASSO_ANDRE_TravailPratique/",
+        "enVedette": false
+    },
+    {
+        "id": "mon-petit-miaou",
+        "numeroGroupe": 3,
+        "creatriceOuCreateur": "Mélyse Larissa Malo",
+        "titre": "Mon Petit Miaou",
+        "publicCible": "2 à 5 ans",
+        "description": "Ludique tout en restant éducatif, Mon Petit Miaou offre la possibilité aux tout-petits d'apprendre à prendre soin d'un animal de compagnie à travers différentes actions.",
+        "etiquettes": [
+            "Simulation",
+            "Exploration",
+            "Ludique"
+        ],
+        "image": "malo-mélyse-vignette.jpg",
+        "lienJouable": "https://h26-2j2.github.io/MelyseMalo_TravailPratique/",
+        "enVedette": false
+    },
+    {
+        "id": "coul-mot",
+        "numeroGroupe": 2,
+        "creatriceOuCreateur": "Imane Mechali",
+        "titre": "Coul-mot",
+        "publicCible": "3 à 5 ans",
+        "description": "Retournez les poissons à leur famille en attrapant la bonne couleur grâce à l'hameçon. Le projet combine correspondance, couleurs et interaction directe.",
+        "etiquettes": [
+            "Correspondance",
+            "Couleurs",
+            "Interactif"
+        ],
+        "image": "imane-mechali-vignette.png",
+        "lienJouable": "https://h26-2j2.github.io/TP1_Volet3_Imane_Mechali/",
+        "enVedette": false
+    },
+    {
+        "id": "boite-a-gogo",
+        "numeroGroupe": 2,
+        "creatriceOuCreateur": "Léonie Cantegrel",
+        "titre": "Boîte à gogo",
+        "publicCible": "3 à 5 ans",
+        "description": "Aidez le livreur à remettre des colis de taille, forme et couleur différentes à la bonne personne. Le projet met de l'avant la logique et le tri visuel.",
+        "etiquettes": [
+            "Puzzle",
+            "Éducatif",
+            "Logique"
+        ],
+        "image": "leonie_vignette.png",
+        "lienJouable": "https://h26-2j2.github.io/CantegrelLeonie_TravailPratique/",
+        "enVedette": false
+    },
+    {
+        "id": "le-monstre-affamee",
+        "creatriceOuCreateur": "Arthur Vaccari Pereira",
+        "titre": "Le monstre affamée",
+        "publicCible": "3 à 5 ans",
+        "description": "Nourrissez le monstre pour le rendre heureux. Le jeu mise sur une boucle simple, amusante et très accessible.",
+        "etiquettes": [
+            "Éducatif",
+            "Monstre",
+            "Amusant"
+        ],
+        "image": "arthur_vignette.png",
+        "lienJouable": "https://h26-2j2.github.io/Arthur_Vaccari_TP/",
+        "enVedette": false,
+        "numeroGroupe": 3
+    },
+    {
+        "id": "trouve-lanimal",
+        "numeroGroupe": 2,
+        "creatriceOuCreateur": "Caleb Celestin",
+        "titre": "Trouve l'animal!",
+        "publicCible": "3 à 5 ans",
+        "description": "Trouve l'animal! est un jeu interactif avec des cartes d'animaux sur lesquelles il faut cliquer lorsque la voix annonce l'animal demandé.",
+        "etiquettes": [
+            "Réflexion",
+            "Éducatif",
+            "Puzzle"
+        ],
+        "image": "celestin-caleb-vignette.png",
+        "lienJouable": "https://h26-2j2.github.io/Celestin_Caleb_TpFinal/",
+        "enVedette": false
+    }
+]
