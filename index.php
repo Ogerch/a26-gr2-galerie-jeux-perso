@@ -1,8 +1,52 @@
 <?php
 // Lire le fichier JSON de la liste des jeux et le convertir en structure PHP
+
+// Afficher le contenu du tableau $_GET
+// echo "Le tableau $_GET : <br>";
+// print_r($_GET);
+
+// Afficher le contenu du tablieau $_POST
+// echo "<p>Le tableau $_POST : <br>";
+// print_r($_POST);
+
 $listeJeux = json_decode(file_get_contents('data/donnees-jeux.json'));
 // Tester
 // print_r($listeJeux);
+
+// Rechercher out filtre dans la galerie
+
+
+// ************SOLUTION TRADITIONELLE : requête/réponse gerees par e browser sans JS
+
+// function filterJeu($jeu)
+
+    // Filtre un jeu par mot-clé
+
+    // @param {object} $jeu : Un objet jeu du tableau $listeJeux
+    // @return {boolean} : true si le creatriceOuCreateur du jeu contient le mot-clé envoye par GET en parametre de requete.
+
+    
+    function filtrerJeu($jeu)
+    {
+    print_r($jeu);
+    $mc = strtolower($_GET['mc']);
+    if(str_contains(strtolower($jeu->titre), $mc) || str_contains(strtolower($jeu->creatriceOuCreateur), $mc))
+    {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+if(isset($_GET['mc'])) 
+    {
+        // Filtrer le tableau listeJeux en utilisant la valeur de la variable $_GET['mc']
+        $listeJeux = array_filter($listeJeux, 'filtrerJeu');
+
+        
+        
+    }
+
 ?>
 
 <!DOCTYPE html>
@@ -12,6 +56,7 @@ $listeJeux = json_decode(file_get_contents('data/donnees-jeux.json'));
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galerie de jeux</title>
+
     <style>
         section.galerie {
             display: flex;
@@ -39,19 +84,33 @@ $listeJeux = json_decode(file_get_contents('data/donnees-jeux.json'));
                 border-radius: 3px;
                 border: 1px solid gray;
             }
+
+            button {
+                width: 50px;
+                height: 50px;
+                background-color: #11ff00;
+                border: 1px solid #ffffff;
+                cursor: pointer;
+            }
         }
     </style>
+
 </head>
 
 <body>
     <h1>Galerie de jeux</h1>
 
-    <form action="">
+    <form>
         <input
             type="search"
-            name="motscles"
+            name="mc"
             id="motscles"
             placeholder="Saisir des mots-clés pour filtrer la liste" />
+        <!-- <input type="color" name="ma-couleur" />
+        <input type="date" name="date-naissance" />
+        <input type="password" name="mdp" /> -->
+        <button type="submit"></button>
+    
     </form>
     <section class="galerie">
 
