@@ -26,12 +26,33 @@ $listeJeux = json_decode(file_get_contents('data/donnees-jeux.json'));
                 padding: 0.5rem;
             }
         }
+
+        form {
+            margin: 1rem auto;
+            display: flex;
+            flex-direction: column;
+
+            input {
+                width: 80vw;
+                font-size: 1.3rem;
+                padding: 0.5rem;
+                border-radius: 3px;
+                border: 1px solid gray;
+            }
+        }
     </style>
 </head>
 
 <body>
     <h1>Galerie de jeux</h1>
 
+    <form action="">
+        <input
+            type="search"
+            name="motscles"
+            id="motscles"
+            placeholder="Saisir des mots-clés pour filtrer la liste" />
+    </form>
     <section class="galerie">
 
         <!-- Gabarit pour présenter un jeux -->
