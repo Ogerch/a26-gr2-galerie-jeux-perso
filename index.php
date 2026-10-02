@@ -28,14 +28,16 @@ $listeJeux = json_decode(file_get_contents('data/donnees-jeux.json'));
     
     function filtrerJeu($jeu)
     {
-    print_r($jeu);
+    // print_r($jeu);
     $mc = strtolower($_GET['mc']);
-    if(str_contains(strtolower($jeu->titre), $mc) || str_contains(strtolower($jeu->creatriceOuCreateur), $mc))
-    {
-        return true;
-    } else {
-        return false;
-    }
+    return (str_contains(strtolower($jeu->titre), $mc) || str_contains(strtolower($jeu->creatriceOuCreateur), $mc));
+    
+    // if(str_contains(strtolower($jeu->titre), $mc) || str_contains(strtolower($jeu->creatriceOuCreateur), $mc))
+    // {
+    //     return true;
+    // } else {
+    //     return false;
+    // }
 }
 
 if(isset($_GET['mc'])) 
