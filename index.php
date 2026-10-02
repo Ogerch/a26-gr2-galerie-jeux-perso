@@ -16,7 +16,7 @@ $listeJeux = json_decode(file_get_contents('data/donnees-jeux.json'));
 // Rechercher out filtre dans la galerie
 
 
-// ************SOLUTION TRADITIONELLE : requête/réponse gerees par e browser sans JS
+// ************SOLUTION TRADITIONELLE : requête/réponse gerees par e browser sans JS**********************************
 
 // function filterJeu($jeu)
 
@@ -26,28 +26,29 @@ $listeJeux = json_decode(file_get_contents('data/donnees-jeux.json'));
     // @return {boolean} : true si le creatriceOuCreateur du jeu contient le mot-clé envoye par GET en parametre de requete.
 
     
-    function filtrerJeu($jeu)
-    {
-    // print_r($jeu);
-    $mc = strtolower($_GET['mc']);
-    return (str_contains(strtolower($jeu->titre), $mc) || str_contains(strtolower($jeu->creatriceOuCreateur), $mc));
+//     function filtrerJeu($jeu)
+//     {
+//     // print_r($jeu);
+//     $mc = strtolower($_GET['mc']);
+//     return (str_contains(strtolower($jeu->titre), $mc) || str_contains(strtolower($jeu->creatriceOuCreateur), $mc));
     
-    // if(str_contains(strtolower($jeu->titre), $mc) || str_contains(strtolower($jeu->creatriceOuCreateur), $mc))
-    // {
-    //     return true;
-    // } else {
-    //     return false;
-    // }
-}
+//     // if(str_contains(strtolower($jeu->titre), $mc) || str_contains(strtolower($jeu->creatriceOuCreateur), $mc))
+//     // {
+//     //     return true;
+//     // } else {
+//     //     return false;
+//     // }
+//     }
 
-if(isset($_GET['mc'])) 
-    {
-        // Filtrer le tableau listeJeux en utilisant la valeur de la variable $_GET['mc']
-        $listeJeux = array_filter($listeJeux, 'filtrerJeu');
+// if(isset($_GET['mc'])) 
+//     {
+//         // Filtrer le tableau listeJeux en utilisant la valeur de la variable $_GET['mc']
+//         $listeJeux = array_filter($listeJeux, 'filtrerJeu');
 
         
         
-    }
+//     }
+// ********************************************************************************************************************
 
 ?>
 
@@ -58,60 +59,20 @@ if(isset($_GET['mc']))
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galerie de jeux</title>
-
-    <style>
-        section.galerie {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.3rem;
-
-            article {
-                width: 300px;
-                height: 200px;
-                border-radius: 5px;
-                border: 2px solid black;
-                padding: 0.5rem;
-            }
-        }
-
-        form {
-            margin: 1rem auto;
-            display: flex;
-            flex-direction: column;
-
-            input {
-                width: 80vw;
-                font-size: 1.3rem;
-                padding: 0.5rem;
-                border-radius: 3px;
-                border: 1px solid gray;
-            }
-
-            button {
-                width: 50px;
-                height: 50px;
-                background-color: #11ff00;
-                border: 1px solid #ffffff;
-                cursor: pointer;
-            }
-        }
-    </style>
-
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
 </head>
 
 <body>
-    <h1>Galerie de jeux</h1>
+<h1><a href ="index.php">Galerie de jeux</a></h1>
 
-    <form>
+    <form id="filtre-jeux">
         <input
             type="search"
             name="mc"
-            id="motscles"
+            
             placeholder="Saisir des mots-clés pour filtrer la liste" />
-        <!-- <input type="color" name="ma-couleur" />
-        <input type="date" name="date-naissance" />
-        <input type="password" name="mdp" /> -->
-        <button type="submit"></button>
+        <button type="submit">V</button>
     
     </form>
     <section class="galerie">
